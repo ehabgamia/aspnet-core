@@ -1,0 +1,111 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props"></Import>
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>MCV.Portal</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191125084933_AddedSAPCode.cs" />
+    <Compile Remove="Migrations\20191125084933_AddedSAPCode.Designer.cs" />
+    <Compile Remove="Migrations\20191125085323_AddedSAPCode.cs" />
+    <Compile Remove="Migrations\20191125085323_AddedSAPCode.Designer.cs" />
+    <Compile Remove="Migrations\20191125090236_InitialMigration–IgnoreChanges.cs" />
+    <Compile Remove="Migrations\20191125090236_InitialMigration–IgnoreChanges.Designer.cs" />
+    <Compile Remove="Migrations\20191125091121_InitializeUpdate.cs" />
+    <Compile Remove="Migrations\20191125091121_InitializeUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20191125091147_AddSAPCode.cs" />
+    <Compile Remove="Migrations\20191125091147_AddSAPCode.Designer.cs" />
+    <Compile Remove="Migrations\20191224074959_update_employeedata.cs" />
+    <Compile Remove="Migrations\20191224074959_update_employeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191224094111_updatedemployeedata.cs" />
+    <Compile Remove="Migrations\20191224094111_updatedemployeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191224094313_updatedemployeedata.cs" />
+    <Compile Remove="Migrations\20191224094313_updatedemployeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191224100031_employeegetdata.cs" />
+    <Compile Remove="Migrations\20191224100031_employeegetdata.Designer.cs" />
+    <Compile Remove="Migrations\20191224100323_updateemployeegetdata.cs" />
+    <Compile Remove="Migrations\20191224100323_updateemployeegetdata.Designer.cs" />
+    <Compile Remove="Migrations\20191224100719_updategetemployeedata.cs" />
+    <Compile Remove="Migrations\20191224100719_updategetemployeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191224102135_addedemployeedata.cs" />
+    <Compile Remove="Migrations\20191224102135_addedemployeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191224105520_updateaddemployeedata.cs" />
+    <Compile Remove="Migrations\20191224105520_updateaddemployeedata.Designer.cs" />
+    <Compile Remove="Migrations\20191225084934_AddEmployeeVacations_Vacation.cs" />
+    <Compile Remove="Migrations\20191225084934_AddEmployeeVacations_Vacation.Designer.cs" />
+    <Compile Remove="Migrations\20191225085149_updateemployeevacations.cs" />
+    <Compile Remove="Migrations\20191225085149_updateemployeevacations.Designer.cs" />
+    <Compile Remove="Migrations\20191225143601_updatedvacationstatusprop.cs" />
+    <Compile Remove="Migrations\20191225143601_updatedvacationstatusprop.Designer.cs" />
+    <Compile Remove="Migrations\20191226084931_addedmanagertoempdata.cs" />
+    <Compile Remove="Migrations\20191226084931_addedmanagertoempdata.Designer.cs" />
+    <Compile Remove="Migrations\20191230080238_changedenumtype.cs" />
+    <Compile Remove="Migrations\20191230080238_changedenumtype.Designer.cs" />
+    <Compile Remove="Migrations\20200109072229_AddedSAPEmpHierarchy.cs" />
+    <Compile Remove="Migrations\20200109072229_AddedSAPEmpHierarchy.Designer.cs" />
+    <Compile Remove="Migrations\20200322140315_Add_EmployeesView2_Table.cs" />
+    <Compile Remove="Migrations\20200322140315_Add_EmployeesView2_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200325103738_Added_RestRequests_table.cs" />
+    <Compile Remove="Migrations\20200325103738_Added_RestRequests_table.Designer.cs" />
+    <Compile Remove="Migrations\20200401112929_added_RequestLogs_Table.cs" />
+    <Compile Remove="Migrations\20200401112929_added_RequestLogs_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200401113554_added_RequestLogs_Table.cs" />
+    <Compile Remove="Migrations\20200401113554_added_RequestLogs_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200401114353_added_RequestLogs1_Table.cs" />
+    <Compile Remove="Migrations\20200401114353_added_RequestLogs1_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200406104220_Added_RestRequests9_tabke.cs" />
+    <Compile Remove="Migrations\20200406104220_Added_RestRequests9_tabke.Designer.cs" />
+    <Compile Remove="Migrations\20200406104243_Added_RestRequests9_table.cs" />
+    <Compile Remove="Migrations\20200406104243_Added_RestRequests9_table.Designer.cs" />
+    <Compile Remove="Migrations\20200406105659_Added_RestRequests9_table.cs" />
+    <Compile Remove="Migrations\20200406105659_Added_RestRequests9_table.Designer.cs" />
+    <Compile Remove="Migrations\20200406115149_Added_RestRequests9_table.cs" />
+    <Compile Remove="Migrations\20200406115149_Added_RestRequests9_table.Designer.cs" />
+    <Compile Remove="Migrations\20200407124105_Added_RestResponses9_Table.cs" />
+    <Compile Remove="Migrations\20200407124105_Added_RestResponses9_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200427130951_added_RestResponses5_table.cs" />
+    <Compile Remove="Migrations\20200427130951_added_RestResponses5_table.Designer.cs" />
+    <Compile Remove="Migrations\20200428085600_added_RestInfoAdmins_table.cs" />
+    <Compile Remove="Migrations\20200428085600_added_RestInfoAdmins_table.Designer.cs" />
+    <Compile Remove="Migrations\20200428085725_added_RestInfoAdmins_table.cs" />
+    <Compile Remove="Migrations\20200428085725_added_RestInfoAdmins_table.Designer.cs" />
+    <Compile Remove="Migrations\20201223214103_Intit.cs" />
+    <Compile Remove="Migrations\20201223214103_Intit.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCV.Portal.Core\MCV.Portal.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="System.Transactions" />
+  </ItemGroup>
+
+</Project>
